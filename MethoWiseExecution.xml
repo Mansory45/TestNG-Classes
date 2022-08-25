@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Aimal/IdeaProjects/TestNGBatch13/src/test/java/Class01">
+        <classes>
+            <class name="Class01.TestAnnotionExample">
+                <methods>
+                    <include name="AtestingForfbText"/>
+                    <include name="AcreateAccountText"/>
+                </methods>
+            </class>
+            <class name="Class01.TestNGannotations">
+                <methods>
+                    <include name="firstTestCase"/>
+                    <include name="secondTestCase"/>
+                    <include name="ThirdTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Aimal/IdeaProjects/TestNGBatch13/src/test/java/class03">
+
+        <classes>
+            <class name="class03.Annotations"></class>
+            <class name="Class02.dependsOn"></class>
+        </classes>
+        
+    </test>
+    <test name="mytest2">
+        <classes>
+            <class name="class03.Annotations"></class>
+        </classes>
+        
+        
+        
+    </test>
+</suite>
